@@ -26,20 +26,26 @@
                                 <rect key="frame" x="102" y="554" width="210" height="99"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Go to child"/>
+                                <connections>
+                                    <action selector="buttonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yXr-HX-Y1z"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="messageLabel" destination="DGi-4B-Kd3" id="Adg-2p-10r"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="129.91071428571428"/>
         </scene>
-        <!--View Controller-->
+        <!--Boss View Controller-->
         <scene sceneID="bAY-r4-t72">
             <objects>
-                <viewController id="gRr-b6-tee" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BossViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="gRr-b6-tee" customClass="BossViewController" customModule="DelegateProtocol" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wPH-yc-82K">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -55,11 +61,17 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <state key="normal" title="Submit"/>
+                                <connections>
+                                    <action selector="submitClicked:" destination="gRr-b6-tee" eventType="touchUpInside" id="5ZC-pP-NAM"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="wHW-39-ZbZ"/>
                     </view>
+                    <connections>
+                        <outlet property="textField" destination="9si-g0-aM1" id="Mzo-X7-haN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AVY-xT-250" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

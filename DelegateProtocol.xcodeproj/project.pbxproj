@@ -13,6 +13,7 @@
 		73AD40DB23E8333E0042E505 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73AD40D923E8333E0042E505 /* Main.storyboard */; };
 		73AD40DD23E833420042E505 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73AD40DC23E833420042E505 /* Assets.xcassets */; };
 		73AD40E023E833420042E505 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73AD40DE23E833420042E505 /* LaunchScreen.storyboard */; };
+		73AD40E823E838A10042E505 /* BossViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AD40E723E838A10042E505 /* BossViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		73AD40DC23E833420042E505 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73AD40DF23E833420042E505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73AD40E123E833420042E505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73AD40E723E838A10042E505 /* BossViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BossViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				73AD40DC23E833420042E505 /* Assets.xcassets */,
 				73AD40DE23E833420042E505 /* LaunchScreen.storyboard */,
 				73AD40E123E833420042E505 /* Info.plist */,
+				73AD40E723E838A10042E505 /* BossViewController.swift */,
 			);
 			path = DelegateProtocol;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				73AD40D823E8333E0042E505 /* ViewController.swift in Sources */,
+				73AD40E823E838A10042E505 /* BossViewController.swift in Sources */,
 				73AD40D423E8333E0042E505 /* AppDelegate.swift in Sources */,
 				73AD40D623E8333E0042E505 /* SceneDelegate.swift in Sources */,
 			);
